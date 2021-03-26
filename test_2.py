@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import unquote
 
- h
 def parser(url):
     html = requests.get(url).text
     soup = BeautifulSoup(html, 'html.parser')
