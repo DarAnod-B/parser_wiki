@@ -11,3 +11,4 @@ def appearance(intervals):
             alls = set(les).intersection(pup).intersection(tut)
             time.append(max(alls, default=0) - min(alls, default=0))
     return sum(time)
+ 
